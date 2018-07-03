@@ -85,7 +85,6 @@
             </plugin>
             -->
 
-            <!--
             <plugin>
                 <groupId>com.github.wvengen</groupId>
                 <artifactId>proguard-maven-plugin</artifactId>
@@ -113,7 +112,6 @@
                     </dependency>
                 </dependencies>
             </plugin>
-            -->
 
             <!--alternative lib path: <lib>${java.home}/jmods/java.base.jmod(!**.jar;!module-info.class)</lib>-->
         </plugins>
