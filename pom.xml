@@ -100,9 +100,17 @@
                 <configuration>
                     <proguardVersion>6.0.2</proguardVersion>
                     <obfuscate>true</obfuscate>
+
                     <libs>
                         <lib>${java.home}/jmods/java.base.jmod</lib>
                     </libs>
+                    <injar>${project.name}-HeyIt-sATest.jar</injar>
+                    <outjar>${project.name}-small.jar</outjar>
+                    <outputDirectory>${project.build.directory}</outputDirectory>
+                    <options>
+                        <option>-keep public class my.first.test.pack.MainTestClass {public static void main(java.lang.String[]);}</option>
+                        <option>-dontwarn</option>
+                    </options>
                 </configuration>
                 <dependencies>
                     <dependency>
