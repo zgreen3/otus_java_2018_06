@@ -1,0 +1,5 @@
+ru.otus.l012.Main -> ru.otus.l012.Main:
+    void <init>() -> <init>
+    void main(java.lang.String[]) -> main
+    void calcTime(java.lang.Runnable) -> a
+    void lambda$main$0(java.util.Collection) -> a
